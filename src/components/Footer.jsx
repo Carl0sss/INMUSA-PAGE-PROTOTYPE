@@ -56,7 +56,7 @@ function Footer() {
               <a href='https://www.instagram.com/insumosmultiples.sv/' className='text-amber-700 px-1 hover:text-gray-500' target='_blank' rel='noopener noreferrer'>
                 <CiInstagram size={30} />
               </a>
-              <a href='https://wa.me/50360659297'  className='text-amber-700 px-1 hover:text-gray-500' target='_blank' rel='noopener noreferrer'>
+              <a href='https://wa.me/50360659297' className='text-amber-700 px-1 hover:text-gray-500' target='_blank' rel='noopener noreferrer'>
                 <BiLogoWhatsapp size={30} />
               </a>
             </div>
@@ -64,7 +64,8 @@ function Footer() {
         </div>
       </div>
       <div className='w-full p-3 bg-white text-center  text-amber-700 '>
-        <small>Copyright &copy; 2023, INSUMOS MULTIPLES S.A. DE C.V.</small>
+        <small>Copyright &copy; {new Date().getFullYear()}, INSUMOS MULTIPLES S.A. DE C.V. Todos los derechos reservados.</small>
+        <div className='text-amber-700 bg-white text-center text-[11px]'><small>Desarrollado por <a href='https://www.linkedin.com/in/carlos-rafaelano-157067255/' target='_blank' rel='noopener noreferrer'>Crls R.</a></small></div>
       </div>
     </div>
   )
